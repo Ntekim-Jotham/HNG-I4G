@@ -3,8 +3,8 @@ const { response } = require('express');
 const express = require('express');
 // const path = require('path');
 const open = require('open');
-const port = 3000;
-const host = "http://localhost:" + port;
+// const port = 3000;
+const host = "http://localhost:" + process.env.PORT || 5000;
 
 
 let app = express();
@@ -27,7 +27,7 @@ app.post('/contact', (req, res) => {
 })
 
 
-app.listen(port, (err)=> {
+app.listen(process.env.PORT || 5000, (err)=> {
    if(err){
        console.log(err);
    }else{

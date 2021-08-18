@@ -3,9 +3,7 @@ const { response } = require('express');
 const express = require('express');
 // const path = require('path');
 const open = require('open');
-// const bodyParser = require("body-parser");
-const port = 3000; 
-const host = 'http://localhost:' + port;
+// const host = "https://git.heroku.com/don-app-hng";
 
 
 let app = express();

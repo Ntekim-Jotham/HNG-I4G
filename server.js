@@ -3,7 +3,8 @@ const { response } = require('express');
 const express = require('express');
 // const path = require('path');
 const open = require('open');
-// const host = "https://git.heroku.com/don-app-hng";
+const port = 3000;
+const host = "http://localhost:" + port;
 
 
 let app = express();

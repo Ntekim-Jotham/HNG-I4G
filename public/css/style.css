@@ -1,0 +1,54 @@
+.slides .slide .title{
+    color: rgb(212, 60, 33);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.social-links li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    padding-right: 15px;
+
+}
+.social-links li a{
+    color: rgb(50, 153, 201);
+ }
+ .social-links li a:hover{
+    text-decoration: none;
+    color: teal;
+ }
+
+.social-links li a img{
+    color: red !important;
+}
+
+.left-content #my-hobby {
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hobbies li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    list-style-type: circle;
+    color: whitesmoke;
+}
+
+#alert-message{
+    display: none;
+    font-size: 18px;
+   
+}
+
+
+@media only screen and (min-width: 760px){
+    .social-links li {
+        display: block;
+        font-size: 20px;
+        padding-bottom: 10px; 
+    
+    }
+}
